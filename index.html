@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Все про ПК</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Навігація -->
+  <header>
+    <div class="logo">PC Info</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#history">Історія</a></li>
+        <li><a href="#components">Комплектуючі</a></li>
+        <li><a href="#future">Майбутнє ПК</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Головний екран -->
+  <section id="home" class="hero">
+    <h1>Все про персональні комп’ютери</h1>
+    <p>Дізнайся історію, складові та перспективи розвитку ПК</p>
+    <a href="#history" class="btn">Почати</a>
+  </section>
+
+  <!-- Історія -->
+  <section id="history" class="content">
+    <h2>Історія ПК</h2>
+    <p>Перші персональні комп’ютери з’явилися у 1970-х роках і поступово стали невід’ємною частиною нашого життя.</p>
+  </section>
+
+  <!-- Комплектуючі -->
+<section id="components" class="content">
+  <h2>Основні комплектуючі</h2>
+  <div class="cards">
+    <div class="card" data-info="cpu">
+      <h3>Процесор (CPU)</h3>
+      <p>«Мозок» комп’ютера.</p>
+      <button class="info-btn">Детальніше</button>
+    </div>
+
+    <div class="card" data-info="gpu">
+      <h3>Відеокарта (GPU)</h3>
+      <p>Відповідає за графіку.</p>
+      <button class="info-btn">Детальніше</button>
+    </div>
+
+    <div class="card" data-info="ram">
+      <h3>Оперативна пам’ять (RAM)</h3>
+      <p>Швидке сховище даних.</p>
+      <button class="info-btn">Детальніше</button>
+    </div>
+
+    <div class="card" data-info="ssd">
+      <h3>Накопичувач (SSD/HDD)</h3>
+      <p>Дані та файли.</p>
+      <button class="info-btn">Детальніше</button>
+    </div>
+
+    <div class="card" data-info="motherboard">
+      <h3>Материнська плата</h3>
+      <p>З’єднує всі компоненти.</p>
+      <button class="info-btn">Детальніше</button>
+    </div>
+  </div>
+</section>
+
+<!-- Модальне вікно -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+
+  <!-- Майбутнє -->
+  <section id="future" class="content">
+    <h2>Майбутнє ПК</h2>
+    <p>Розвиток штучного інтелекту, квантових обчислень та хмарних технологій змінить уявлення про персональні комп’ютери.</p>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <p>© 2025 Все про ПК</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
